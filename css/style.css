@@ -136,8 +136,10 @@ body{
 	left: 0;
 	top: 0;
 	display: inline-block;
-	height: 30px;
-	width: 100px;
-	background-color: #56a047;
+	height: 25px;
+	width: 90px;
+	padding: 5px;
+	background-color: #77da5c;
+	color: #fff;
 	
 }
