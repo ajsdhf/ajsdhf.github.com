@@ -12,6 +12,7 @@ body{
 }
 .header{
 	clear: both;
+	background: #f3f3f3;
 }
 .logo{
 	display: inline-block;
