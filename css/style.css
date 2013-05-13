@@ -74,7 +74,7 @@ body{
 	list-style: none;
 }
 .articleList li{
-	padding: 30px 0px;
+	padding: 20px 0px;
 	border-top: 1px dotted #ccc;
 }
 .articleList li .year{
@@ -87,9 +87,9 @@ body{
 	padding: 0px 15px;
 }
 .articleList li a{
-	color: #333;
 	outline: none;
 	text-decoration: none;
 	color: #555;
-	font-size: 14px;
+	font-size: 23px;
+	margin-left: 15px;
 }
