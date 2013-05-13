@@ -25,12 +25,13 @@ body{
 .container .left{
 	float: left;
 	width: 820px;
-	border-right: 1px solid #aaa;
+	
 }
 .container .right{
 	float: left;
 	width: 280px;
 	margin-left: 19px;
+	border-left: 1px solid #ccc;
 }
 .container .right .toolbox{
 	padding: 0;
