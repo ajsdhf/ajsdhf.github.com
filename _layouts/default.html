@@ -4,6 +4,7 @@
 　　　　<meta charset="gbk" >
 　　　　<title>少年弱冠</title>
 	  <link type="" href="/css/style.css" rel="stylesheet" type="text/css">
+	  <script src="/js/jqury.js" ></script>
 　　</head>
 　　<body>
 		<div class="header">
@@ -47,4 +48,10 @@
 			</div>
 		</div>
 　　</body>
+	<script >
+		var leftHeight = $('.left').height();
+		if( $('.right').height()<leftHeight ){
+			$('.right').height(leftHeight);
+		}
+	</script>
 </html>
