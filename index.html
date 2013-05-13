@@ -6,6 +6,6 @@ title: 我的Blog
 <p>最新文章</p>
 <ul>
 　　{% for post in site.posts %}
-　　　　<li>{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a>{{ post.content | split:<!-- more --> | first}}</li>
+　　　　<li>{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a>{{ post.content | split:& | first}}</li>
 　　{% endfor %}
 </ul>
