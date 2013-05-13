@@ -33,7 +33,7 @@ body{
 	height: 35px;
 	line-height: 25px;
 	margin: 0 10px;
-	background-color: #fff;
+	
 }
 .menu li:hover a,.menu li.active a{
 	margin-top: 0
@@ -44,4 +44,5 @@ body{
 	text-decoration: none;
 	color: #555;
 	margin-top: 10px; 
+	background-color: #fff;
 }
