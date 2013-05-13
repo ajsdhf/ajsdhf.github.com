@@ -25,7 +25,7 @@ body{
 .container .left{
 	float: left;
 	width: 820px;
-	
+	padding-bottom: 15px;
 }
 .container .right{
 	float: left;
@@ -33,6 +33,7 @@ body{
 	margin-left: 19px;
 	border-left: 1px solid #ccc;
 	min-height: 600px;
+	padding-bottom: 15px;
 }
 .container .right .toolbox{
 	padding: 0;
