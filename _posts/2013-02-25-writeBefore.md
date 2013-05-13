@@ -3,5 +3,18 @@ layout: default
 title: new blog
 cate: article
 ---
-#测试微博
-##dddd
+#论前端的核心竞争力
+
+测试数据
+
+测试数据
+
+测试数据
+
+测试数据
+
+测试数据
+
+测试数据
+
+测试数据
