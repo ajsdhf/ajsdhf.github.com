@@ -2,6 +2,7 @@
 layout: default
 title: 论前端的核心竞争力
 cate: article
+type: article
 ---
 #{{ page.title }}
 
