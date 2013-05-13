@@ -46,7 +46,7 @@ body{
 }
 .menu{
 	float: right;
-	width: 300px;
+	width: auto;
 	margin: 0;
 	padding: 0;
 	margin-top: 15px;
@@ -67,4 +67,15 @@ body{
 	text-decoration: none;
 	color: #555;
 	font-size: 14px;
+}
+.articleList{
+	margin: 0;
+	padding: 0;
+}
+.articleList li{
+	padding: 20px 30px;
+	border-top: 1px dotted #ccc;
+}
+.articleList li .year{
+	
 }
