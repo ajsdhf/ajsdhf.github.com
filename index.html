@@ -6,6 +6,10 @@ title: 我的Blog
 <p>最新文章</p>
 <ul>
 　　{% for post in site.posts %}
-　　　　<li>{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a>{{ post.content | split:<!-- more --> }}</li>
+　　　　<li>{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a># array = {{ post.content | split:<!-- more --> }}
+{% for item in array limit:0 offset:1 %}
+  {{ item }}
+{% endfor %}
+</li>
 　　{% endfor %}
 </ul>
