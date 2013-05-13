@@ -35,6 +35,11 @@ body{
 	min-height: 600px;
 	margin-bottom: 15px;
 }
+.container .right .rightTitle{
+	padding-left: 15px;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
 .container .right .toolbox{
 	margin: 0;
 	margin-left: 10px;
