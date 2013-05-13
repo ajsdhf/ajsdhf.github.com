@@ -13,10 +13,11 @@ body{
 .header{
 	clear: both;
 	background: #f3f3f3;
+	height: 60px;
 }
 .logo{
 	display: inline-block;
-	height: 82px;
+	margin: 0;
 	float: left;;
 }
 .menu{
