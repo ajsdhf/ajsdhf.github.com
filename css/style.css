@@ -26,7 +26,7 @@ body{
 	float: left;
 	width: 820px;
 	margin-bottom: 15px;
-	margin-top: -30px;
+	margin-top: -10px;
 }
 .container .right{
 	float: left;
@@ -129,12 +129,11 @@ body{
 .article{
 	position: relative;
 	padding: 20px;
-	
-	overflow: hidden;
 	padding-left: 50px;
 }
 .article .content{
 	max-height: 200px;
+	overflow: hidden;
 }
 .article .time{
 	position: absolute;
