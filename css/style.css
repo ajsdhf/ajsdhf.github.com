@@ -32,11 +32,12 @@ body{
 	width: 280px;
 	margin-left: 19px;
 	border-left: 1px solid #ccc;
+	min-height: 600px;
 }
 .container .right .toolbox{
 	padding: 0;
 	margin: 0;
-	padding-left: 28px;
+	padding-left: 20px;
 }
 .container .right .toolbox li{
 	list-style: none;
