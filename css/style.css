@@ -130,6 +130,7 @@ body{
 	position: relative;
 	padding: 20px;
 	padding-left: 50px;
+	border-top: 4px solid #ff7b15;
 }
 .article .content{
 	max-height: 200px;
@@ -155,5 +156,5 @@ body{
 	outline: none;
 	text-decoration: none;
 	color: #333;
-	font-size: 23px;
+	font-size: 33px;
 }
