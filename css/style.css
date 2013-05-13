@@ -154,7 +154,6 @@ body{
 }
 .article .articleTitle{
 	outline: none;
-	text-decoration: none;
 	color: #333;
 	font-size: 33px;
 }
