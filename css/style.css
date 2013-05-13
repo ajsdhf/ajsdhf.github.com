@@ -29,12 +29,14 @@ body{
 	display: inline-block;
 	height: 25px;
 	line-height: 25px;
+	margin: 0 10px;
 }
-.menu li : hover,.menu li.active{
+.menu li:hover,.menu li.active{
 	height: 35px;
 }
 .menu li a{
 	padding: 5px 15px;
 	outline: none;
+	text-decoration: none;
 	color: #555;
 }
