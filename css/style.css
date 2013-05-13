@@ -64,6 +64,9 @@ body{
 	color: #555;
 	font-size: 14px;
 }
+.container .right .rightul{
+	clear: both
+}
 .footer{
 	clear: both;
 	background: #f3f3f3;
