@@ -130,20 +130,21 @@ body{
 	padding: 20px;
 	max-height: 200px;
 	overflow: hidden;
+	padding-left: 50px;
 }
 .article .time{
 	position: absolute;
-	left: 0;
-	top: 0;
+	left: -33px;
+	top: 61px;
 	display: inline-block;
-	height: 25px;
+	height: 20px;
 	width: 90px;
 	padding: 5px;
 	background-color: #77da5c;
 	color: #fff;
-	-moz-transform: scale() rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-		-webkit-transform: scale() rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-        -o-transform: scale() rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-        -ms-transform: scale() rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
-        transform: scale() rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-moz-transform:rotate(90deg);
+	-webkit-transform: rotate(90deg);
+     -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
 }
