@@ -11,13 +11,19 @@
 				<ul class="menu">
 					<li {% if page.cate == 'blog' %}
 						  class="active"
-						{% endif %} ><a href="#">Home</a></li>
-					<li><a href="#">Article</a></li>
-					<li><a href="#">About</a></li>
+						{% endif %} ><a href="/index.html">Home</a></li>
+					<li{% if page.cate == 'article' %}
+						  class="active"
+						{% endif %} ><a href="/article.html">Article</a></li>
+					<li{% if page.cate == 'about' %}
+						  class="active"
+						{% endif %} ><a href="/about.html">About</a></li>
 				</ul>
 				<h1 class="logo">aj's blog</h1>
 			</div>
 		</div>
-　　　　{{ content }}
+		<div class="container">
+　　　　	{{ content }}
+		</div>
 　　</body>
 </html>
