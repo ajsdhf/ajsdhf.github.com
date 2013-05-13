@@ -26,6 +26,7 @@ body{
 	float: left;
 	width: 820px;
 	margin-bottom: 15px;
+	margin-top: -30px;
 }
 .container .right{
 	float: left;
@@ -138,13 +139,13 @@ body{
 	top: 61px;
 	display: inline-block;
 	height: 20px;
-	width: 90px;
+	width: 86px;
 	padding: 5px;
 	background-color: #77da5c;
 	color: #fff;
-	-moz-transform:rotate(90deg);
-	-webkit-transform: rotate(90deg);
-     -o-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
+	-moz-transform:rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
