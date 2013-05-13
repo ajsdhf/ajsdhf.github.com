@@ -5,6 +5,7 @@ body,html{
 body{
 	font-size: 13px;
 	font-family: 'microsoft YaHei';
+	border-top: 3px solid #191212;
 }
 .container{
 	margin: 0 auto;
@@ -13,7 +14,7 @@ body{
 .header{
 	clear: both;
 	background: #f3f3f3;
-	height: 60px;
+	height: 45px;
 }
 .logo{
 	display: inline-block;
@@ -32,16 +33,14 @@ body{
 	height: 35px;
 	line-height: 25px;
 	margin: 0 10px;
-	
 }
 .menu li:hover a,.menu li.active a{
-	margin-top: 0
+	color: #ff7b15;
 }
 .menu li a{
 	padding: 5px 15px;
 	outline: none;
 	text-decoration: none;
 	color: #555;
-	margin-top: 10px; 
 	background-color: #fff;
 }
