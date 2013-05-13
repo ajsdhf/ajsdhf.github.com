@@ -1,13 +1,6 @@
 ---
 layout: default
-title: hello world
+title: new blog
 ---
-<article>
-
 #≤‚ ‘Œ¢≤©
-
 ##dddd
-
-</article>
-
-#11
