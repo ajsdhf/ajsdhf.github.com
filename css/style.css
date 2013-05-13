@@ -16,6 +16,8 @@ body{
 	background: #f3f3f3;
 	height: 40px;
 	padding: 10px 0;
+	position: relative;
+	top: -17px;
 }
 .footer{
 	clear: both;
