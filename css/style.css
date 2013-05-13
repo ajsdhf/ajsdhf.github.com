@@ -141,5 +141,9 @@ body{
 	padding: 5px;
 	background-color: #77da5c;
 	color: #fff;
-	
+	-moz-transform: scale() rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+		-webkit-transform: scale() rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -o-transform: scale() rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale() rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        transform: scale() rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
 }
