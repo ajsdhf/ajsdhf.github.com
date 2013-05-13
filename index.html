@@ -6,9 +6,12 @@ cate: blog
 <div>
 　　{% for post in site.posts %}
 　　　　<div class="article">
-		<span class="time">{{ post.date | date: "%Y-%m-%d" }}</span>
-		<a href="{{ post.url }}">{{ post.title }}</a>
-		{{ post.content }}
+		<div class="content">
+			<span class="time">{{ post.date | date: "%Y-%m-%d" }}</span>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+			{{ post.content }}
+		</div>
+		
 	  </div>
 　　{% endfor %}
 </div>
