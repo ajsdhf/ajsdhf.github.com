@@ -3,7 +3,7 @@ body,html{
 	padding: 0;
 }
 body{
-	font-size: 13px;
+	font-size: 15px;
 	font-family: 'microsoft YaHei';
 	border-top: 3px solid #191212;
 }
@@ -17,7 +17,7 @@ body{
 	height: 40px;
 	padding: 10px 0;
 	position: relative;
-	top: -17px;
+	top: -20px;
 }
 .main{
 	
