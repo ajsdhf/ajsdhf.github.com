@@ -30,18 +30,18 @@ body{
 .menu li{
 	float: left;
 	display: inline-block;
-	height: 25px;
+	height: 35px;
 	line-height: 25px;
 	margin: 0 10px;
 	background-color: #fff;
 }
-.menu li:hover,.menu li.active{
-	height: 35px;
-	margin-bottom: 10px;
+.menu li:hover a,.menu li.active a{
+	margin-top: 0
 }
 .menu li a{
 	padding: 5px 15px;
 	outline: none;
 	text-decoration: none;
 	color: #555;
+	margin-top: 10px; 
 }
