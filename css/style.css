@@ -125,3 +125,19 @@ body{
 	font-size: 23px;
 	margin-left: 15px;
 }
+.article{
+	position: relative;
+	padding: 20px;
+	max-height: 200px;
+	overflow: hidden;
+}
+.article .time{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	background-color: #56a047;
+	
+}
