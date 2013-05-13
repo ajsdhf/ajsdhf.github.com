@@ -30,6 +30,7 @@ body{
 	height: 25px;
 	line-height: 25px;
 	margin: 0 10px;
+	background-color: #fff;
 }
 .menu li:hover,.menu li.active{
 	height: 35px;
