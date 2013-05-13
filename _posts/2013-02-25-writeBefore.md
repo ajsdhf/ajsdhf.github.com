@@ -1,9 +1,9 @@
 ---
 layout: default
-title: new blog
+title: 论前端的核心竞争力
 cate: article
 ---
-#论前端的核心竞争力
+#{{ page.title }}
 
 测试数据
 
