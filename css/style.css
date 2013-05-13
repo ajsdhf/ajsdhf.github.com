@@ -30,7 +30,21 @@ body{
 	float: left;
 	width: 299px;
 }
-
+.container .right .toolbox{
+	padding: 0;
+	margin: 0;
+}
+.container .right .toolbox li{
+	list-style: none;
+	color: #999;
+	padding: 0px 0 0px 0px;
+	font-size: 14px;
+	line-height: 1.8em;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 130px;
+	float: left;
+}
 .footer{
 	clear: both;
 	background: #f3f3f3;
