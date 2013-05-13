@@ -1,2 +1,20 @@
-body,html{margin: 0;padding: 0}
-body{background-image: url('images/bg-body.gif');font-size: 13px;font-family: 'microsoft YaHei';}
+body,html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('images/bg-body.gif');
+	font-size: 13px;
+	font-family: 'microsoft YaHei';
+}
+.container{
+	margin: 0 auto;
+	width: 1200px;
+}
+.logo{
+	display: inline-block;
+	width: 332px;
+	height: 82px;
+	float: left;
+	background-image: url('images/logo.png');
+}
