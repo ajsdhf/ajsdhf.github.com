@@ -157,6 +157,11 @@ body{
 	text-decoration: none;
 	color: #333;
 	font-size: 33px;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
 }
 .article .articleTitle:hover{
 	color: #ff7b15;
