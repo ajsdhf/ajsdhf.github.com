@@ -11,6 +11,9 @@ body{
 	margin: 0 auto;
 	width: 1200px;
 }
+.header{
+	clear: both;
+}
 .logo{
 	display: inline-block;
 	width: 332px;
@@ -34,6 +37,7 @@ body{
 }
 .menu li:hover,.menu li.active{
 	height: 35px;
+	margin-bottom: 10px;
 }
 .menu li a{
 	padding: 5px 15px;
