@@ -15,6 +15,7 @@ body{
 	clear: both;
 	background: #f3f3f3;
 	height: 45px;
+	padding: 10px 0;
 }
 .logo{
 	display: inline-block;
@@ -23,9 +24,10 @@ body{
 }
 .menu{
 	float: right;
-	width: 500px;
+	width: 300px;
 	margin: 0;
 	padding: 0;
+	margin-top: 20px;
 }
 .menu li{
 	float: left;
@@ -42,5 +44,4 @@ body{
 	outline: none;
 	text-decoration: none;
 	color: #555;
-	background-color: #fff;
 }
