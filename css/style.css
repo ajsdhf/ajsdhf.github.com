@@ -18,3 +18,23 @@ body{
 	float: left;
 	background-image: url('images/logo.png');
 }
+.menu{
+	float: right;
+	width: 500px;
+	margin: 0;
+	padding: 0;
+}
+.menu li{
+	float: left;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+}
+.menu li : hover,.menu li.active{
+	height: 35px;
+}
+.menu li a{
+	padding: 5px 15px;
+	outline: none;
+	color: #555;
+}
