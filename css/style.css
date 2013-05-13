@@ -33,6 +33,7 @@ body{
 .container .right .toolbox{
 	padding: 0;
 	margin: 0;
+	padding-left: 30px;
 }
 .container .right .toolbox li{
 	list-style: none;
@@ -44,6 +45,12 @@ body{
 	overflow: hidden;
 	width: 130px;
 	float: left;
+}
+.container .right .toolbox li a{
+	outline: none;
+	text-decoration: none;
+	color: #555;
+	font-size: 14px;
 }
 .footer{
 	clear: both;
