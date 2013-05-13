@@ -66,6 +66,7 @@ body{
 }
 .container .right .rightul{
 	clear: both
+	height: 250px;
 }
 .footer{
 	clear: both;
