@@ -36,9 +36,10 @@ body{
 	margin-bottom: 15px;
 }
 .container .right .toolbox{
-	padding: 0;
 	margin: 0;
-	padding-left: 20px;
+	margin-left: 10px;
+	padding: 10px 5px;
+	border-top: 1px solid #ddd;
 }
 .container .right .toolbox li{
 	list-style: none;
