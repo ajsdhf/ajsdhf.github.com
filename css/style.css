@@ -184,6 +184,7 @@ body{
 	transition: background-color 0.5s;
 	text-shadow: none;
 	text-decoration: none;
+	outline: none;
 }
 .full-article:hover{
 	background: #0181eb;
