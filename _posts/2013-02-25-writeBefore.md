@@ -7,7 +7,7 @@ type: article
 
 测试数据
 
-<!--more-->
+<!--moreBegin-->
 
 测试数据
 
@@ -20,3 +20,5 @@ type: article
 测试数据
 
 测试数据
+
+<!--moreEnd-->
