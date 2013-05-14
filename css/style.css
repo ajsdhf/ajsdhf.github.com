@@ -124,6 +124,8 @@ body{
 	color: #aaa;
 	font-size: 22px;
 	padding: 0px 15px;
+	width: 133px;
+	display: inline-block;
 }
 .articleList li a{
 	outline: none;
