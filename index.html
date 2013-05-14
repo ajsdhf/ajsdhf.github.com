@@ -11,7 +11,9 @@ cate: blog
 			<a class="articleTitle" href="{{ post.url }}">{{ post.title }}</a>
 			{{ post.content | replace:'<!--moreBegin-->','<!--' | replace:'<!--moreEnd-->','-->'}}
 		</div>
-		
+		<div>
+			<a class="full-article" href="{{ post.url }}">Read more¡­</a>
+		</div>
 	  </div>
 ¡¡¡¡{% endfor %}
 </div>

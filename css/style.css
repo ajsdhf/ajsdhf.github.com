@@ -169,3 +169,18 @@ body{
 .article .articleTitle:hover{
 	color: #ff7b15;
 }
+.full-article{
+	background: #ebebeb;
+	display: inline-block;
+	padding: .4em .8em;
+	margin-right: .5em;
+	text-decoration: none;
+	color: #666;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	background: #0181eb;
+	text-shadow: none;
+	color: #f8f8f8;
+}
