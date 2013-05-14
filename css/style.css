@@ -180,7 +180,9 @@ body{
 	-moz-transition: background-color 0.5s;
 	-o-transition: background-color 0.5s;
 	transition: background-color 0.5s;
-	background: #0181eb;
 	text-shadow: none;
+}
+.full-article:hover{
+	background: #0181eb;
 	color: #f8f8f8;
 }
