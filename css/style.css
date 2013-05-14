@@ -3,7 +3,7 @@ body,html{
 	padding: 0;
 }
 body{
-	font-size: 15px;
+	font-size: 14px;
 	font-family: 'microsoft YaHei';
 	border-top: 3px solid #191212;
 }
@@ -181,6 +181,7 @@ body{
 	-o-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 	text-shadow: none;
+	text-decoration: none;
 }
 .full-article:hover{
 	background: #0181eb;
