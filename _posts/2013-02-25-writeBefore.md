@@ -15,9 +15,11 @@ CR有多种形式，一个正规的开发团队，想要提升团队成员的代码技能，CR是必不可少的一个
 + CR 帮助提升成员专业能力
 + CR 改善研发团队沟通交流
 
+<!--more-->
+
 关于如何做好CR，这里先不讨论。下面我贴出最近一次CR的成果。
 
-##1. 判断为空字符串写法
+###1. 判断为空字符串写法
 
 	if(jQuery.trim(item.html())==""){ 
 	
@@ -25,7 +27,7 @@ CR有多种形式，一个正规的开发团队，想要提升团队成员的代码技能，CR是必不可少的一个
 
 	if(!jQuery.trim(item.html())){
 	
-##2. 有效利用map来将一个对象或者数组转换为新的一个对象或者数组
+###2. 有效利用map来将一个对象或者数组转换为新的一个对象或者数组
 
 	var obj = { "result": [
 	{ "tradeAmountRate": "1", "provinceName":"2" },
@@ -46,54 +48,58 @@ CR有多种形式，一个正规的开发团队，想要提升团队成员的代码技能，CR是必不可少的一个
 	    return  {value : a.tradeAmountRate , label: a.provinceName}
 	})    
 	console.log(data2)
-##3.快速利用选择器
+###3.快速利用选择器
 
-var currentChart = this.panels.eq(index).find('.donut-area-chart');
-var panel=this.panels.eq(index).find('.mdata-tab-panel').eq(0);
+	var currentChart = this.panels.eq(index).find('.donut-area-chart');
+	var panel=this.panels.eq(index).find('.mdata-tab-panel').eq(0);
+	
 to ：
 
-var currentChart = $(".donut-area-chart", this.panels.eq(index)) ;
-var panel = $(".mdata-tab-panel:first", this.panels.eq(index)) ;
-$("#test .test:even") 选取偶数项
-$("#test .test:old") 选取基数项
+	var currentChart = $(".donut-area-chart", this.panels.eq(index)) ;
+	var panel = $(".mdata-tab-panel:first", this.panels.eq(index)) ;
+	$("#test .test:even") 选取偶数项
+	$("#test .test:old") 选取基数项
 
 详见jquery选择器 http://www.w3school.com.cn/jquery/jquery_ref_selectors.asp
-4. 对象继承
 
-var baseConfig = {
-    type: item.data('type'),
-    yLines:4,
-    xStep: 10,
-    padding: 20
-}
-if(item.attr('id') == 'amount-core-chart'){
-    baseConfig['barSizeRatio'] = 0.2;
-    baseConfig['barGap'] = -3.5;
-    baseConfig['barTag'] = 1;
-    baseConfig['barTagHeight'] = 4;
-}
+###4. 对象继承
+
+	var baseConfig = {
+    	type: item.data('type'),
+    	yLines:4,
+    	xStep: 10,
+    	padding: 20
+	}
+	if(item.attr('id') == 'amount-core-chart'){
+    	baseConfig['barSizeRatio'] = 0.2;
+    	baseConfig['barGap'] = -3.5;
+    	baseConfig['barTag'] = 1;
+    	baseConfig['barTagHeight'] = 4;
+	}
 to
 
-...
-if(item.attr('id') == 'amount-core-chart'){
-    $.extend(baseConfig , {
-        barSizeRatio : 0.2 ,
-        barGap : -.3.5 ,
-        barTag : 1 ,
-        barTagHeight : 4 
-    })
-}
-5. 若确定没有html，尽量使用text()，从而避免安全性问题
+	...
+	if(item.attr('id') == 'amount-core-chart'){
+   	 	$.extend(baseConfig , {
+        	barSizeRatio : 0.2 ,
+        	barGap : -.3.5 ,
+        	barTag : 1 ,
+        	barTagHeight : 4 
+    	})
+	}
+	
+###5. 若确定没有html，尽量使用text()，从而避免安全性问题
 
-    < div id="test" >< /div>
+    
     $("#test").html("插入文字");
+    
 to:转为text 方法：
-
-    < div id="test" >< /div>
+	
     $("#test").text("插入文字");
-6. for改用each
+    
+###6. for改用each
 
-7. 只用一次的变量就不要定义临时变量
+###7. 只用一次的变量就不要定义临时变量
 
     var tab = new Slide({
         element: item,
@@ -110,24 +116,8 @@ to :
     }).on("switched",function(toIndex){
         coreChartInit($('#count-core-chart'));      
     });
-8. 拼装dom属性的时候使用attr(object)
 
-< area color="#cdcdcd" oid="' + areaArr[item] + '" url="javascript:void(0);" mc_name="' + areaArr[item] + '" value="0"  title="' +getAreaTitle(item)+ '">' ;
-    
-    < a id="test" href="#">< /a>
-    $("#test").attr({
-        data : "1" ,
-        title : "test"
-    })
-to
-
-< area color="#cdcdcd" url="javascript:void(0);" value="0">< /area>' ;
-$("area").attr({
-    oid : areaArr[item] ,
-    mc_name : areaArr[item] ,
-    title : getAreaTitle(item)
-}); 
-9. 将数据直接写值，不要单独设置每个值
+###8. 将数据直接写值，不要单独设置每个值
 
     var areaPosition={};
     areaPosition["1"] = "205,139";
@@ -142,24 +132,14 @@ $("area").attr({
     areaNameArr["3"] = "北京";
 to ：
 
-var area = {
-    "1" : [[205,139],"CN_AH" ,"安徽"],
-    "3" : [[201,95], "CN_BJ", "北京"]
-}
+	var area = {
+    	"1" : [[205,139],"CN_AH" ,"安徽"],
+    	"3" : [[201,95], "CN_BJ", "北京"]
+	}
 
 
-<!--more-->
 
-测试数据
 
-测试数据
 
-测试数据
-
-测试数据
-
-测试数据
-
-测试数据
 
 
