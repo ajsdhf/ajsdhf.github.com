@@ -6,7 +6,7 @@ body{
 	font-size: 14px;
 	font-family: 'microsoft YaHei';
 	border-top: 3px solid #191212;
-	color: #333;
+	color: #6b6b6b;
 }
 .container{
 	margin: 0 auto;
@@ -138,7 +138,7 @@ body{
 	position: relative;
 	padding: 20px;
 	padding-left: 50px;
-	border-top: 4px solid #ff7b15;
+	border: 1px solid #ccc;
 }
 .article .content{
 	
