@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 前端的价值
+title: 前端的价值观
 cate: article
 type: article
 ---
