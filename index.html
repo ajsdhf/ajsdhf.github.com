@@ -9,7 +9,8 @@ cate: blog
 		<div class="content">
 			<span class="time">{{ post.date | date: "%Y-%m-%d" }}</span>
 			<a class="articleTitle" href="{{ post.url }}">{{ post.title }}</a>
-			{{ post.content | replace:'<!--moreBegin-->','<!--' | replace:'<!--moreEnd-->','-->'}}
+			{{ post.content | replace:'<!--more-->','<!--' }}
+			-->
 		</div>
 		<div>
 			<a class="full-article" href="{{ post.url }}">Read more¡­</a>
