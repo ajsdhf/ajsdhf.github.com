@@ -19,7 +19,7 @@ CR有多种形式，一个正规的开发团队，想要提升团队成员的代码技能，CR是必不可少的一个
 
 关于如何做好CR，这里先不讨论。下面我贴出最近一次CR的成果。
 
-###1. 判断为空字符串写法
+####1. 判断为空字符串写法
 
 	if(jQuery.trim(item.html())==""){ 
 	
@@ -27,7 +27,7 @@ CR有多种形式，一个正规的开发团队，想要提升团队成员的代码技能，CR是必不可少的一个
 
 	if(!jQuery.trim(item.html())){
 	
-###2. 有效利用map来将一个对象或者数组转换为新的一个对象或者数组
+####2. 有效利用map来将一个对象或者数组转换为新的一个对象或者数组
 
 	var obj = { "result": [
 	{ "tradeAmountRate": "1", "provinceName":"2" },
@@ -48,7 +48,7 @@ CR有多种形式，一个正规的开发团队，想要提升团队成员的代码技能，CR是必不可少的一个
 	    return  {value : a.tradeAmountRate , label: a.provinceName}
 	})    
 	console.log(data2)
-###3.快速利用选择器
+####3.快速利用选择器
 
 	var currentChart = this.panels.eq(index).find('.donut-area-chart');
 	var panel=this.panels.eq(index).find('.mdata-tab-panel').eq(0);
@@ -62,7 +62,7 @@ to ：
 
 详见jquery选择器 http://www.w3school.com.cn/jquery/jquery_ref_selectors.asp
 
-###4. 对象继承
+####4. 对象继承
 
 	var baseConfig = {
     	type: item.data('type'),
@@ -88,7 +88,7 @@ to
     	})
 	}
 	
-###5. 若确定没有html，尽量使用text()，从而避免安全性问题
+####5. 若确定没有html，尽量使用text()，从而避免安全性问题
 
     
     $("#test").html("插入文字");
@@ -97,9 +97,9 @@ to:转为text 方法：
 	
     $("#test").text("插入文字");
     
-###6. for改用each
+####6. for改用each
 
-###7. 只用一次的变量就不要定义临时变量
+####7. 只用一次的变量就不要定义临时变量
 
     var tab = new Slide({
         element: item,
@@ -117,7 +117,7 @@ to :
         coreChartInit($('#count-core-chart'));      
     });
 
-###8. 将数据直接写值，不要单独设置每个值
+####8. 将数据直接写值，不要单独设置每个值
 
     var areaPosition={};
     areaPosition["1"] = "205,139";
