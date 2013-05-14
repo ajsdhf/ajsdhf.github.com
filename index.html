@@ -8,7 +8,7 @@ cate: blog
 　　　　<div class="article">
 		<div class="content">
 			<span class="time">{{ post.date | date: "%Y-%m-%d" }}</span>
-			<a class="articleTitle" href="{{ post.url }}">{{ post.title }}</a>
+			<p><a class="articleTitle" href="{{ post.url }}">{{ post.title }}</a></p>
 			{{ post.content | replace:'<!--more-->','<!--' }}
 			-->
 		</div>
