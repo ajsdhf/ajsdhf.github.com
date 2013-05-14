@@ -140,6 +140,8 @@ body{
 	padding: 20px;
 	padding-left: 50px;
 	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-shadow: #aaa 3px 3px 3px;
 }
 .article .content{
 	
