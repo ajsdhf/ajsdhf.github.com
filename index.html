@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Ê×Ò³
+title: é¦–é¡µ
 cate: blog
 ---
 <div>
-¡¡¡¡{% for post in site.posts %}
-¡¡¡¡¡¡¡¡<div class="article">
+ã€€ã€€{% for post in site.posts %}
+ã€€ã€€ã€€ã€€<div class="article">
 		<div class="content">
 			<span class="time">{{ post.date | date: "%Y-%m-%d" }}</span>
 			<p><a class="articleTitle" href="{{ post.url }}">{{ post.title }}</a></p>
@@ -13,8 +13,8 @@ cate: blog
 			-->
 		</div>
 		<div>
-			<a class="full-article" href="{{ post.url }}">Read more¡­</a>
+			<a class="full-article" href="{{ post.url }}">Read moreÂ´</a>
 		</div>
 	  </div>
-¡¡¡¡{% endfor %}
+ã€€ã€€{% endfor %}
 </div>
