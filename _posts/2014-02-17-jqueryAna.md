@@ -62,5 +62,7 @@ type: article
 
 
 
+可以从上面看出，每个jQuery对象返回的都是`new jQuery.fn.init`对象，无论使用`new jQuery()`或者`jQuery()`创建的对象都是返回`new jQuery.fn.init`，先执行 `jQuery.fn = jQuery.prototype`，再执行 `jQuery.fn.init.prototype = jQuery.fn`，合并后的代码如下：
 
+	jQuery.fn.init.prototype = jQuery.fn = jQuery.prototype
 
