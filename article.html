@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Ê¸¾Ï
+title: æ–‡ç« 
 cate: article
 ---
 <h1>Blog Article</h1>
 <ul class="articleList">
-¡¡¡¡{% for post in site.posts %}
-¡¡¡¡¡¡¡¡<li>
+ã€€ã€€{% for post in site.posts %}
+ã€€ã€€ã€€ã€€<li>
 			<span class="year">{{ post.date | date: "%Y" }}</span>
 			<span class="date">{{ post.date | date: "%B %d" }}</span>
 			<a href="{{ post.url }}">{{ post.title }}</a>
 	  </li>
-¡¡¡¡{% endfor %}
+ã€€ã€€{% endfor %}
 </ul>
