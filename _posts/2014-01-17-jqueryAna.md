@@ -22,12 +22,7 @@ type: article
        jQuery.fn = jQuery.prototype = {
            constructor: jQuery,
            init: function( selector, context, rootjQuery ) {
-              // selector有以下7种分支情况：
-              // DOM元素
-              // body（优化）
-              // 字符串：HTML标签、HTML字符串、#id、选择器表达式
-              // 函数（作为ready回调函数）
-              // 最后返回伪数组
+              
            }
        };
    
