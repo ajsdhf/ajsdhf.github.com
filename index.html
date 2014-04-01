@@ -7,6 +7,9 @@ cate: blog
     <h1>Blog</h1>
     <p>from a front-end engineer  <a href="article.html">enter</a></p>
 </div>
+<script>
+    $('.indexMain').height($(window).height());
+</script>
 <div class="hidden">
 　　{% for post in site.posts %}
 　　　　<div class="article">
