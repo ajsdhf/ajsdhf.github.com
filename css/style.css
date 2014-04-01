@@ -199,3 +199,16 @@ body{
 	background: #0181eb;
 	color: #f8f8f8;
 }
+
+.indexMain{
+    border-top: solid 6px #31dd33;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.indexMain p{
+    color: lightgrey;
+}
+.indexMain p a{
+    
+}
