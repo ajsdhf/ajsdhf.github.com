@@ -8,6 +8,9 @@ body{
 	border-top: 3px solid #191212;
 	color: #6b6b6b;
 }
+.hidden{
+    display: none;
+}
 .container{
 	margin: 0 auto;
 	width: 1120px;
