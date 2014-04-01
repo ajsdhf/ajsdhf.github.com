@@ -205,9 +205,14 @@ body{
     display: table-cell;
     height: 100%;
     vertical-align: middle;
+    width: 100%;
+}
+.indexMain h1{
+    text-align: center;
 }
 .indexMain p{
     color: lightgrey;
+    text-align: center;
 }
 .indexMain p a{
 
