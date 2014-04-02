@@ -8,7 +8,7 @@ body{
 	color: #6b6b6b;
 }
 .main_bg{
-    border-top:6px solid #FA9700;
+    border-top:6px solid #105ad2;
 }
 .hidden{
     display: none;
@@ -211,9 +211,11 @@ body{
 }
 .indexMain h1{
     text-align: center;
-    color: #666;
+    color: #111;
     font: 120px 'Italiana', sans-serif;
-    line-height: 1.5;
+    line-height: 1.1;
+    position: relative;
+    top: -30px;
 }
 .indexMain p{
     color: lightgrey;
