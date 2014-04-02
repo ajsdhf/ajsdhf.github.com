@@ -213,13 +213,14 @@ body{
     text-align: center;
     color: #111;
     font: 120px 'Italiana', sans-serif;
-    line-height: 1.1;
+    line-height: 1;
     position: relative;
     top: -30px;
 }
 .indexMain p{
-    color: lightgrey;
+    color: #666;
     text-align: center;
+    font: 120px 'Italiana', sans-serif;
 }
 .indexMain p a{
 
