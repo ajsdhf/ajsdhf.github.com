@@ -7,6 +7,9 @@ body{
 	font-family: 'microsoft YaHei';
 	color: #6b6b6b;
 }
+.main_bg{
+    background: url('/css/images/main_bg.jpg') center top no-repeat ;
+}
 .hidden{
     display: none;
 }
