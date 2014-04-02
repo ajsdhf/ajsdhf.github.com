@@ -212,9 +212,11 @@ body{
 .indexMain h1{
     text-align: center;
     color: #fff;
-    font-size: 64px;
+    font: 150px 'Italiana', sans-serif;
     line-height: 64px;
     margin-bottom: 5px;
+    position: relative;
+    top: -20px;
 }
 .indexMain p{
     color: lightgrey;
