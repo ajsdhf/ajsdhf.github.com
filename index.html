@@ -8,7 +8,7 @@ cate: blog
     <p>from a front-end engineer  <a href="article.html">enter</a></p>
 </div>
 <script>
-    $('.indexMain').height($(window).height()).width($(window).width())
+    $('.indexMain').height($(window).height()).width($(window).width() - 50)
 </script>
 <div class="hidden">
 　　{% for post in site.posts %}
