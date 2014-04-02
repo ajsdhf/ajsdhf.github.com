@@ -40,9 +40,11 @@
 		<div class="main">
 			<div class="container">
                 {% if page.type == 'article' %}
+                <div class="articleContainer">
                 <h3>{{ page.title }}</h3>
                 {% endif %}
 　　　　				{{ content }}
+                </div>
 			</div>
 		</div>
         {% endif %}
